@@ -1,9 +1,3 @@
-//
-//  ImagePicker.swift
-//  TouchTalker
-//
-//  Created by Yong Wang on 10/11/25.
-//
 
 
 import SwiftUI
