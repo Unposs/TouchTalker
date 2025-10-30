@@ -1,4 +1,13 @@
+//
+//  ParentSettings.swift
+//  TouchTalker
+//
+//  Created by Yong Wang on 10/11/25.
+//
+
+
 import Foundation
+import Combine   // Required for ObservableObject
 
 class ParentSettings: ObservableObject {
     @Published var password: String = UserDefaults.standard.string(forKey: "parentPassword") ?? "1234"

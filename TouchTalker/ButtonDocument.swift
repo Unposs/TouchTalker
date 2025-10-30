@@ -1,3 +1,11 @@
+//
+//  ButtonDocument.swift
+//  TouchTalker
+//
+//  Created by Yong Wang on 10/11/25.
+//
+
+
 import SwiftUI
 import UniformTypeIdentifiers
 
@@ -9,8 +17,11 @@ struct ButtonDocument: FileDocument {
         self.buttons = buttons
     }
     
+    //  Corrected initializer
     init(configuration: ReadConfiguration) throws {
-        let data = try Data(contentsOf: configuration.file)
+        guard let data = configuration.file.regularFileContents else {
+            throw CocoaError(.fileReadCorruptFile)
+        }
         buttons = try JSONDecoder().decode([SpeechButton].self, from: data)
     }
     

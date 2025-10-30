@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5D369F8D2E9ACC700077B515 /* Build configuration list for PBXProject "TouchTalker" */;
+			buildConfigurationList = 5D369F8D2E9ACC700077B515 /* Build configuration list for PBXProject "ImagePicker" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -309,7 +309,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5D369F8D2E9ACC700077B515 /* Build configuration list for PBXProject "TouchTalker" */ = {
+		5D369F8D2E9ACC700077B515 /* Build configuration list for PBXProject "ImagePicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D369F9B2E9ACC730077B515 /* Debug */,

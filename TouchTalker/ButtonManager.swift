@@ -1,5 +1,14 @@
+//
+//  ButtonManager.swift
+//  TouchTalker
+//
+//  Created by Yong Wang on 10/11/25.
+//
+
+
 import Foundation
 import SwiftUI
+import Combine
 
 class ButtonManager: ObservableObject {
     @Published var buttons: [SpeechButton] = []
